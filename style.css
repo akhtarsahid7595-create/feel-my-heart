@@ -372,6 +372,16 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-color: rgba(255,255,255,0.8);
 }
 
+.btn-ghost {
+  background: transparent;
+  color: var(--midnight);
+  border: 2px solid rgba(45, 49, 66, 0.15);
+}
+.btn-ghost:hover {
+  background: rgba(45, 49, 66, 0.05);
+  border-color: rgba(45, 49, 66, 0.3);
+}
+
 /* Pulse glow animation for primary CTAs */
 .pulse-glow {
   animation: pulseglow 2.5s ease-in-out infinite;
